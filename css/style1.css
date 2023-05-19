@@ -1,0 +1,22 @@
+*{
+margin:0px;
+padding:0px;
+font-family: Century Gothic;
+background-color: rgb(247, 231, 201);
+}
+header{
+	
+	height:150vh;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: centre;
+}
+.header1{
+  padding: 20px;
+  text-align: center;
+}
+.questions{
+	width:1170px;
+	margin:auto;
+}
