@@ -1,9 +1,11 @@
-/*
-    Theme Name: Medilab
-    Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{padding: 0;
+margin: 0;
+color: #000;
+font-size: 20px;
+font-family: 'Mukta', sans-serif;
+
+}
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -11,7 +13,12 @@ body {
 	color: #000000;
 	font-size: 300;
 	font-size: 16px;
-    background-color: #fffcd0;
+    background: #beff9b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89fedb, #b2fe89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #95fede, #b5ff8d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 ol, ul {
 	list-style: none;
@@ -31,7 +38,7 @@ table {
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 	color: #000000;
 }
 a, a:hover, a:focus, a:active{
@@ -52,7 +59,7 @@ h2 {
 hr.botm-line {
     height: 3px;
     width: 60px;
-    background: #ffb737;
+    background: #000000;
     position: relative;
     border: 0;
     margin: 20px 0 20px 0;
@@ -98,7 +105,7 @@ banner
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(28,74,90, 0.9);
+		background: rgba(186, 186, 186, 0.9);
 	}
 }
 
@@ -119,7 +126,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(0, 0, 0, 0.161);
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -139,7 +146,7 @@ banner
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
+    background-color: rgb(0, 27, 27) !important;
 }
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
@@ -362,7 +369,7 @@ testimonial
 cta -2
 ***************************************/
 #cta-2{
-	background-color: rgb(41, 48, 46);
+	background-color: rgb(0, 165, 118);
 }
 .white{
 	color: #fff;
@@ -439,7 +446,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #12343f;
+	background-color: #001820;
 }
 .ftr-tle {
     height: 50px;
@@ -472,11 +479,11 @@ footer
     background-color: #2C3E50;
 }
 .bglight-blue {
-    background-color: #3498DB;
+    background-color: #9ad4fb;
 }
 .top-footer {
     padding: 40px 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.136);
 }
 .footer-line {
     padding: 30px 0px;
@@ -492,7 +499,7 @@ footer
 }
 .site-link, .site-link:hover, .site-link:focus
 {
-    color: #0cb8b6;
+    color: #004342;
     text-transform: none;
 }
 @media (min-width: 551px) and (max-width: 980px){
@@ -534,3 +541,4 @@ footer
         font-size: 24px;
     }
 }
+
